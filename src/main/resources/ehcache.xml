@@ -1,0 +1,15 @@
+<ehcache>
+
+    <cache name="access"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToLiveSeconds="3"
+           overflowToDisk="true"
+           memoryStoreEvictionPolicy="LFU"/>
+    <cache name="user"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+           memoryStoreEvictionPolicy="LFU"/>
+</ehcache> 
